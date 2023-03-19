@@ -13,12 +13,12 @@
     "format": "npx prettier --write src",
     "format:check": "npx prettier --check src",
     "test": "jest",
+    "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage"
-  },  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "devDependencies": {
     "@types/jest": "^29.4.0",
     "@types/node": "^18.15.0",
